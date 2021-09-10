@@ -1,0 +1,8 @@
+version: "3.9"
+services:
+  kotlin:
+    build:
+      context: kotlin
+    container_name: infrastructure_kotlin
+    volumes:
+    - ../../application:/app
